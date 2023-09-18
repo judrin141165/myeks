@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d1f3d528-9bd9-4b24-bd2d-532b27a8c352" name="my_eks">
+        <fileTransfer rootFolder="/home/ec2-user" accessType="SFTP" host="35.177.127.209" port="22" sshConfigId="338e282b-3ef8-4f94-86a8-01357ddfd590" sshConfig="ec2-user@35.177.127.209:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
